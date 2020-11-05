@@ -24,7 +24,7 @@ ul {
   align:center;
   font-size: 15px;
   margin-top:30px;
-  
+
 }
 
 li {
@@ -133,11 +133,11 @@ h1.title{
   padding-top: 10%;
   left: 0;
   top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto; 
-  background-color: rgb(0,0,0); 
-  background-color: rgba(0,0,0,0.4); 
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
 }
 
 .modal-content {
@@ -238,7 +238,7 @@ h1.title{
   font-size: 20px;
   font-family:'Arial Black';
 	text-shadow:1px 1px 10px #000042;
-   
+
 }
 
 .close-btn{
@@ -253,7 +253,7 @@ h1.title{
   cursor: pointer;
 
 }
-
+/*
 #customers {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -329,7 +329,7 @@ h1.title{
   text-align: left;
   background-color: #251A4E;
   color: white;
-}
+} */
 .button{
     background-color: gold;
   padding: 10px 10px;
@@ -340,7 +340,7 @@ h1.title{
   background-color: yellow;
   color: black;
   box-shadow:
-        0 0 15px 1px 	#FFA500, 
+        0 0 15px 1px 	#FFA500,
         0 0 15px 1px 	#FFA500;
 }
 
@@ -355,7 +355,7 @@ h1.title{
   background-color: blue;
   color: white;
   box-shadow:
-        0 0 15px 1px 	#0000FF, 
+        0 0 15px 1px 	#0000FF,
         0 0 15px 1px 	#0000FF;
 }
 
@@ -369,7 +369,7 @@ h1.title{
   background-color: red;
   color: white;
   box-shadow:
-        0 0 15px 1px 	#FF0000, 
+        0 0 15px 1px 	#FF0000,
         0 0 15px 1px 	#FF0000;
 }
 
@@ -430,17 +430,17 @@ footer{
    text-align: center;
 	font-family:'Arial Black';
 	text-shadow:1px 1px 10px #000042;
-	
+
 }
 
- .tab { 
-  display: inline-block; 
-  margin-left: 5px; 
-} 
+ .tab {
+  display: inline-block;
+  margin-left: 5px;
+}
 
-.tab1 { 
-  margin-left: 1px; 
-} 
+.tab1 {
+  margin-left: 1px;
+}
 
 .article1 {
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -454,7 +454,7 @@ footer{
 	border-radius: 5%;
 	margin-top:100px;
 	margin-bottom:100px;
-	
+
 }
 
 .aside {
@@ -485,7 +485,6 @@ footer{
 .foto:hover {
   background-color: orangered;
   box-shadow:
-        0 0 40px 1px 	#FFA500,  
-        0 0 40px 1px 	#FFA500; 
+        0 0 40px 1px 	#FFA500,
+        0 0 40px 1px 	#FFA500;
 }
-

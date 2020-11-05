@@ -26,17 +26,17 @@ var app = new function() {
 	['Perempuan','Cinthya','Jalan Mangga'],
     ];
 
-  
+
   this.Populate = function() {
     var data = '';
 
     if (this.mhs.length > 0) {
       for (i = 0; i < this.mhs.length; i++) {
         data += '<tr>';
-        data += '<td>'+this.mhs[i][0]+'</td>';
-        data += '<td>'+this.mhs[i][1]+'</td>';
-        data += '<td>'+this.mhs[i][2]+'</td>';
-        data += '<td><button class="button1" onclick="app.Edit(' + i + ')">Edit</button> <button class="button2" onclick="app.Delete(' + i + ')">Delete</button></td>';
+        data += '<td class="col-3">'+this.mhs[i][0]+'</td>';
+        data += '<td class="col-3">'+this.mhs[i][1]+'</td>';
+        data += '<td class="col-3">'+this.mhs[i][2]+'</td>';
+        data += '<td class="col-3"><button class="button1" onclick="app.Edit(' + i + ')">Edit</button> <button class="button2" onclick="app.Delete(' + i + ')">Delete</button></td>';
         data += '</tr>';
       }
 
@@ -114,7 +114,7 @@ var app = new function() {
     document.getElementById('alamat').value = "";
 
   }
-  
+
 }
 
 app.Populate();

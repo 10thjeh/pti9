@@ -14,16 +14,15 @@ var app = new function() {
   this.loadPage = function(){
     var visitor = window.prompt('What is your name?');
     document.getElementById("greeting").innerHTML = 'Hello, ' + visitor + '!';
-
   }
 
-  this.el = document.getElementById('mhs');
+this.el = document.getElementById('mhs');
 
-  this.mhs = [
+this.mhs = [
     ['Laki-Laki','Andhika Wira Nugraha','Jalan Salak'],
     ['Laki-Laki','Indira Hafiz Alfarrel','Jalan Semangka'],
     ['Laki-Laki','Jesse Evans','Jalan Jambu'],
-	['Perempuan','Cinthya','Jalan Mangga'],
+	  ['Perempuan','Cinthya','Jalan Mangga'],
     ];
 
 

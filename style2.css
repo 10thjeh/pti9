@@ -73,17 +73,21 @@ input[type=text]{
 
 #nim {
 	color:white;
-	width:12%;
+	width:100%;
 }
 
 #nama {
 	color:white;
-	width:12%;
+	width:100%;
 }
 
 #alamat {
 	color:white;
-	width:12%;
+	width: 100%;
+}
+
+.theme{
+  background-color:#10203C;
 }
 
 h2.title{

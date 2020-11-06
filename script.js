@@ -33,10 +33,10 @@ var app = new function() {
     if (this.mhs.length > 0) {
       for (i = 0; i < this.mhs.length; i++) {
         data += '<tr>';
-        data += '<td class="col-3">'+this.mhs[i][0]+'</td>';
-        data += '<td class="col-3">'+this.mhs[i][1]+'</td>';
-        data += '<td class="col-3">'+this.mhs[i][2]+'</td>';
-        data += '<td class="col-3"><button class="button1" onclick="app.Edit(' + i + ')">Edit</button> <button class="button2" onclick="app.Delete(' + i + ')">Delete</button></td>';
+        data += '<td>'+this.mhs[i][0]+'</td>';
+        data += '<td>'+this.mhs[i][1]+'</td>';
+        data += '<td>'+this.mhs[i][2]+'</td>';
+        data += '<td><button class="button1" onclick="app.Edit(' + i + ')">Edit</button> <button class="button2" onclick="app.Delete(' + i + ')">Delete</button></td>';
         data += '</tr>';
       }
 

@@ -194,6 +194,10 @@ h1.title{
   border-radius: 12px;
 }
 
+.borderDebug{
+  border: 2px solid black;
+}
+
 .headerAll3{
   top:0;
   width: 34,45%;

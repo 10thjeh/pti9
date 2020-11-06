@@ -36,7 +36,7 @@ var app = new function() {
         data += '<td>'+this.mhs[i][0]+'</td>';
         data += '<td>'+this.mhs[i][1]+'</td>';
         data += '<td>'+this.mhs[i][2]+'</td>';
-        data += '<td><button class="button1" onclick="app.Edit(' + i + ')">Edit</button> <button class="button2" onclick="app.Delete(' + i + ')">Delete</button></td>';
+        data += '<td><button class="btn-info" onclick="app.Edit(' + i + ')">Edit</button> <button class="btn-danger" onclick="app.Delete(' + i + ')">Delete</button></td>';
         data += '</tr>';
       }
 

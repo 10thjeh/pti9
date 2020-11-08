@@ -118,26 +118,6 @@ this.mhs = [
 
 app.Populate();
 
-
-closeForm.onclick = function() {
-  modalEdit.style.display = "none";
-}
-
-// closeAddSuccess.onclick = function(){
-//   modalAddSuccess.style.display = "none";
-// }
-
-closeUpdateSuccess.onclick = function(){
-  modalUpdateSuccess.style.display = "none";
-}
-
-closeDeleteSuccess.onclick = function(){
-  modalDeleteSuccess.style.display = "none";
-}
-closeAddFailed.onclick = function(){
-  modalAddFailed.style.display = "none";
-}
-
 window.onclick = function(event) {
   if (event.target == modalEdit) {
     modalEdit.style.display = "none";

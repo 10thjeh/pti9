@@ -129,7 +129,7 @@ h1.title{
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: black;
 }
-
+/*
 .modal {
   display: none;
   position: fixed;
@@ -196,13 +196,13 @@ h1.title{
   width: 25%;
   height: 100px;
   border-radius: 12px;
-}
+} */
 
 .borderDebug{
   border: 2px solid black;
 }
 
-.headerAll3{
+/* .headerAll3{
   top:0;
   width: 34,45%;
   padding:8px;
@@ -247,7 +247,7 @@ h1.title{
   font-family:'Arial Black';
 	text-shadow:1px 1px 10px #000042;
 
-}
+} */
 
 .close-btn{
   color: #aaaaaa;

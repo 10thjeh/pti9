@@ -59,47 +59,6 @@
    <input type="submit" value="Submit" class="btn-success"><span class="tab"></span>
    <input type="reset" value="Reset" class="btn-danger">
  </form>
- <!-- <div class="col-11 borderDebug">
-   <form id="form-insert" action="javascript:void(0)" method="post" onsubmit="app.Add()">
-     <div class="form-group">
-       <input style="background-color:#10203C;" type="text" class="form-control" id="nim" placeholder="Gender">
-     </div>
-     <div class="form-group">
-       <input style="background-color:#10203C;" type="text" class="form-control" id="nama" placeholder="Nama">
-     </div>
-     <div class="form-group">
-       <input style="background-color:#10203C;" type="text" class="form-control" id="alamat" placeholder="Alamat">
-     </div>
-     <input type="submit" value="Submit" class="btn-success"><span class="tab"></span>
-     <input type="reset" value="Reset" class="btn-danger">
-   </form>
- </div> -->
-<!-- <div class="borderDebug">
- <form id="form-insert" action="javascript:void(0)" method="POST" onsubmit="app.Add()">
-   <div class="form-group">
-     <input style="background-color:#10203C;" type="text" class="form-control" id="nim" placeholder="Gender">
-   </div>
-   <div class="form-group">
-   <input style="background-color:#10203C;" type="text" class="form-control" id="nama" placeholder="Nama">
-   </div>
-   <div class="form-group">
-   <input style="background-color:#10203C;" type="text" class="form-control" id="alamat" placeholder="Alamat">
-   </div>
-   <input type="submit" value="Submit" class="btn-success"><span class="tab"></span>
-   <input type="reset" value="Reset" class="btn-danger">
- </form>
-</div> -->
-<!-- debug -->
-
-<!-- debug -->
-<!-- old form -->
-<!-- <form id="form-insert" action="javascript:void(0);" method="POST" onsubmit="app.Add()" >
-  <a style="color:white; font-family: sans-serif;">Gender :</a><span class="tab"></span><input type="text" id="nim" placeholder="Gender" style="background-color:#10203C;"><span class="tab"></span>
-  <a style="color:white; font-family: sans-serif;">Name :</a><span class="tab"></span><input type="text" id="nama" placeholder="Name" style="background-color:#10203C"><span class="tab"></span>
-  <a style="color:white; font-family: sans-serif;">Address :</a><span class="tab"></span><input type="text" id="alamat" placeholder="Address" style="background-color:#10203C"><span class="tab"></span>
- <input type="submit" value="Submit" class="btn-success"><span class="tab"></span>
- <input type="reset" value="Reset" class="btn-danger">
-</form> -->
 <br/>
 <br/>
 
@@ -144,9 +103,6 @@
 </div>
 </article>
 
-
-
-
 <div id="modalEdit" class="modal">
   <div class="modal-content">
     <span class="closeForm close-btn">&times;</span>
@@ -167,21 +123,34 @@
       <td><input type="text" id="edit-alamat"></td>
       </tr>
     </table>
-
     <br/>
     <input type="submit" value="Submit" onclick="app.Update()" class="btn-success"/>
   </form>
   </div>
-
 </div>
 
-<div id="modalAddSuccess" class="modal">
+<!-- <div id="modalAddSuccess" class="modal">
   <div class="modal-content1">
     <span class="closeAddSuccess close-btn btn-success">&times;</span>
 	  <div class="headerAll1" ><b>Added</b></div>
     <p style="margin-left: 15px; font-family: Times New Roman;">New Data added.</p>
   </div>
-</div>
+</div> -->
+
+<div id="modalAddSuccess" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Success</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <p>Data successfully added.</p>
+        </div>
+    </div>
+  </div>
 
 <div id="modalUpdateSuccess" class="modal">
   <div class="modal-content2">

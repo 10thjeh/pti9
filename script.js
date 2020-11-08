@@ -123,9 +123,9 @@ closeForm.onclick = function() {
   modalEdit.style.display = "none";
 }
 
-closeAddSuccess.onclick = function(){
-  modalAddSuccess.style.display = "none";
-}
+// closeAddSuccess.onclick = function(){
+//   modalAddSuccess.style.display = "none";
+// }
 
 closeUpdateSuccess.onclick = function(){
   modalUpdateSuccess.style.display = "none";

@@ -105,6 +105,41 @@
 
 <div id="modalEdit" class="modal">
   <div class="modal-content">
+    <!-- <span class="closeForm close-btn">&times;</span> -->
+    <h1 class="title">Edit</h1>
+  <form action="javascript:void(0);" method="POST" id="saveEdit">
+    <input type="hidden" id="edit-id">
+      <div class="row">
+        <input type="text" id="edit-nim" readonly="readonly" class="readonly col-8 offset-2">
+        <br>
+        <input type="text" id="edit-nama" class="col-8 offset-2">
+        <br>
+        <input type="text" id="edit-alamat" class="col-8 offset-2">
+        <br>
+
+    <!-- <table>
+      <tr>
+      <td>Gender</td>
+      <td><input type="text" id="edit-nim" readonly="readonly" class="readonly"></td>
+      </tr>
+      <tr>
+      <td>Name</td>
+      <td><input type="text" id="edit-nama"></td>
+      </tr>
+      <tr>
+      <td>Address</td>
+      <td><input type="text" id="edit-alamat"></td>
+      </tr>
+    </table> -->
+    <br/>
+      <input type="submit" value="Submit" onclick="app.Update()" class="btn-success offset-2"/>
+    </div>
+  </form>
+  </div>
+</div>
+
+<!-- <div id="modalEdit" class="modal">
+  <div class="modal-content">
     <span class="closeForm close-btn">&times;</span>
     <h1 class="title">Edit</h1>
   <form action="javascript:void(0);" method="POST" id="saveEdit">
@@ -127,7 +162,7 @@
     <input type="submit" value="Submit" onclick="app.Update()" class="btn-success"/>
   </form>
   </div>
-</div>
+</div> -->
 
 <!-- <div id="modalAddSuccess" class="modal">
   <div class="modal-content1">
@@ -142,7 +177,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Add Success</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="modalAddSuccess.style.display = 'none' ">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>

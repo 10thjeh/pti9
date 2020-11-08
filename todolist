@@ -4,6 +4,6 @@
 4. Table bootstrap - Jesse (dah)
 5. Glyphicons bootstrap - Cin (udah, bisa dilihat di button tabel register.html)
 6. Pagination pake bootstrap ga work gpp - Cin(udh tp not work di bawah tabel register.html)
-7. Modal pake bootstrap
+7. Modal pake bootstrap (close buttonnya ngga work, tapi bisa di-close kalau click layar selain modal boxnya)
 8. Alert message bootstrap - Jesse (dah)
 9. Grid - Jesse (dah)
